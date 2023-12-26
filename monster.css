@@ -1,0 +1,56 @@
+@media (max-width: 599px) {
+  body {
+    background-color: rgb(112, 112, 255);
+  }
+}
+@media (min-width: 600px) {
+  body {
+    background-color: #222021;
+  }
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#container > div {
+  background-color: greenyellow;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#container > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.head {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding: 34px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}/*# sourceMappingURL=monster.css.map */
