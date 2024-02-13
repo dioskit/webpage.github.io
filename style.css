@@ -1,0 +1,20 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#011526;
+    color: #f28b30;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+main , header, footer {
+    text-align: center;
+    align-self: center;
+}
+p{
+    text-align: center;
+    font-size: 1.61rem;
+    margin-left: 2px;
+    margin-right: 2px;
+}
